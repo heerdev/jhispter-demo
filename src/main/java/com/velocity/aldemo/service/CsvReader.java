@@ -1,9 +1,8 @@
 package com.velocity.aldemo.service;
 
 import com.fasterxml.jackson.databind.MappingIterator;
-
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
-import com.velocity.aldemo.entity.CsvEntity;
+import com.velocity.aldemo.domain.CsvEntity;
 
 
 import java.io.File;

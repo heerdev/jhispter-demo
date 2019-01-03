@@ -10,16 +10,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-@Profile("!prod")
 public class SwaggerConfig {
 	 @Bean
 	    public Docket productApi() {
 	        return new Docket(DocumentationType.SWAGGER_2)
-                .groupName("aldemo")
               .select()
-             .apis(RequestHandlerSelectors.basePackage("com.velocity"))
+             .apis(RequestHandlerSelectors.basePackage("com.velocity.aldemo.restcontroller"))
               .build();
 	 }
-
-
 }

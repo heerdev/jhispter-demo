@@ -1,4 +1,4 @@
-package com.velocity.aldemo.entity;
+package com.velocity.aldemo.domain;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @JsonPropertyOrder({ "name", "surname", "shoesize", "gender" })
 @Entity
-@Table(name="csv_entity")
+@Table(name="jhi_csv_entity")
 public class CsvEntity {
 
     @Id

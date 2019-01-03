@@ -1,7 +1,7 @@
-package com.velocity.aldemo.web.rest;
+package com.velocity.aldemo.restcontroller;
 
 
-import com.velocity.aldemo.entity.CsvEntity;
+import com.velocity.aldemo.domain.CsvEntity;
 import com.velocity.aldemo.repository.CsvEntityRepo;
 import com.velocity.aldemo.service.CsvReader;
 import org.springframework.beans.factory.annotation.Autowired;
